@@ -17,7 +17,4 @@ async function getWeather() {
 
   const temp = data.main.temp;
   const condition = data.weather[0].description;
-
-  console.log(temp);
-  console.log(condition);
 }
