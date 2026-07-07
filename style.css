@@ -71,7 +71,7 @@ p {
   width: 300%;
   height: 100%;
 
-  background: url("images/cloud.png");
+  background: url("images/singleCloud.png");
   background-repeat: repeat-x;
 
   opacity: 0.25;
@@ -116,4 +116,30 @@ p {
 
 .search-box button:hover {
   background: #2563eb;
+}
+
+.weather-card {
+  text-align: center;
+
+  background: rgba(0,0,0,0.2);
+
+  padding: 40px;
+  border-radius: 20px;
+
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
 }
